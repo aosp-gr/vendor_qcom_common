@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/common/telephony
 
 PRODUCT_COPY_FILES += \
+    vendor/qcom/common/telephony/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
+    vendor/qcom/common/telephony/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/qcom/common/telephony/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/qcom/common/telephony/proprietary/system_ext/bin/diag_callback_sample_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/diag_callback_sample_system \
     vendor/qcom/common/telephony/proprietary/system_ext/bin/diag_dci_sample_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/diag_dci_sample_system \
