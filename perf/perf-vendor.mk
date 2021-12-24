@@ -127,8 +127,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     pasrservice \
-    PerformanceMode \
-    workloadclassifier \
     QPerformance \
     QXPerformance \
     UxPerformance \
